@@ -1,0 +1,12 @@
+# IDE
+.buildpath
+.settings
+.project
+
+# NPM
+package-lock.json
+node_modules
+
+# Generated files
+css
+js

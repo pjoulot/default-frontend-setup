@@ -29,9 +29,7 @@ var running = {
 gulp.task('sass', function() {
     return gulp.src([
       'node_modules/bootstrap/scss/bootstrap.scss',
-      './templates/global/**/*.scss',
-      './templates/components/**/*.scss',
-      './templates/layouts/**/*.scss',
+      './storybook/source-scss/styles/**/*.scss',
     ])
     .pipe(sassGlob())
     .pipe(sourcemaps.init())
@@ -65,9 +63,7 @@ gulp.task('sass', function() {
  */
 gulp.task('js', function() {
   concat({
-    'global.js': 'templates/global/**/*.js',
-    'components.js': 'templates/components/**/*.js',
-    'layouts.js': 'templates/layouts/**/*.js',
+    'all.js': './storybook/source-js/**/*.js',
   })
     .pipe(sourcemaps.init())
     .pipe(uglify())
