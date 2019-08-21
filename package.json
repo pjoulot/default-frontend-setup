@@ -1,0 +1,31 @@
+{
+  "name": "culturebrew",
+  "version": "8.1.2",
+  "devDependencies": {
+    "bootstrap": "^4.3.1",
+    "bourbon": "^5.0.0-beta.8",
+    "bourbon-neat": "^2.1.0",
+    "browser-sync": "^2.10.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-concat-multi": "^1.0.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-sass": "2.1.0",
+    "gulp-sass-bulk-import": "^1.0.1",
+    "gulp-sass-glob": "^1.0.8",
+    "gulp-shell": "^0.5.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.1",
+    "gulp-util": "3.0.7",
+    "gulp-watch": "4.3.5",
+    "node-normalize-scss": "^3.0.0",
+    "rimraf": "*",
+    "run-sequence": "^1.1.5"
+  },
+  "dependencies": {
+    "breakpoint-sass": "^2.7.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.7"
+  }
+}
